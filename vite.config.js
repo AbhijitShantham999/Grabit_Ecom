@@ -1,4 +1,6 @@
 // vite.config.js
-export default {
-  base: "/Grabit_Ecom/", // repo name here!
-};
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/Grabit_Ecom/', // <-- your repo name
+});
