@@ -1,0 +1,164 @@
+.our_services {
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f1f1f1;
+  h4 {
+    font-weight: 400;
+  }
+  span {
+    color: grey;
+  }
+  h1 {
+    font-size: 3.5vw;
+  }
+}
+
+.service_cards {
+  padding: 5vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  .service_card {
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    padding: 3vw;
+    img {
+      width: 4.5vw;
+    }
+    .card_right {
+      h2 {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+      }
+      p {
+        font-size: 1vw;
+      }
+    }
+  }
+  .service_card:hover {
+    background-color: #e8363c;
+    transition: background 0.5s ease;
+  }
+}
+
+.mission_sec {
+  padding: 5vw;
+  height: auto;
+  .mission {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    margin-bottom: 20px;
+    .mission_right {
+      display: flex;
+      flex-direction: column;
+      gap: 3vw;
+      h1 {
+        font-size: 2.5vw;
+      }
+      h3 {
+        color: #e8363c;
+      }
+      .mission_btn {
+        button {
+          background-color: white;
+          border: 2px solid black;
+          color: black;
+          padding: 20px 25px;
+          font-size: 1vw;
+          font-weight: bold;
+        }
+        button:hover {
+          background-color: #e8363c;
+          color: white;
+          padding: 22px 27px;
+          border: none;
+          transition: background 0.3s ease;
+        }
+      }
+    }
+  }
+}
+
+.brand_sec {
+  padding: 5vw;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  img {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .service_cards {
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    .service_card {
+      align-items: center;
+      gap: 15px;
+      img {
+        width: 9vw;
+      }
+    }
+  }
+  .card_right {
+    h2 {
+      font-size: 3vw !important;
+      margin-bottom: 2vw;
+    }
+    p {
+      font-size: 2vw !important;
+    }
+  }
+  .email_subsp_sec {
+    display: none !important;
+  }
+  .mission_sec {
+    .mission {
+      flex-direction: column;
+      .mission_img {
+        img {
+          width: 100%;
+        }
+      }
+      .mission_btn {
+        button {
+          padding: 20px 25px;
+          font-size: 1.5vw !important;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card_right {
+    h2 {
+      font-size: 5.5vw !important;
+      margin-bottom: 2vw;
+    }
+    p {
+      font-size: 3vw !important;
+    }
+  }
+  .brand_sec {
+    /* padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+    height: auto; */
+    padding: 5vw;
+    gap: 25px;
+    img {
+      width: 15vw;
+    }
+  }
+}

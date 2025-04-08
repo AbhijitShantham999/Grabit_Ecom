@@ -1,0 +1,243 @@
+.about {
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f1f1f1;
+  h4 {
+    font-weight: 400;
+  }
+  span {
+    color: grey;
+  }
+  h1 {
+    font-size: 3.5vw;
+  }
+}
+
+.shoe_collection_sec {
+  margin: 5vw;
+  background-color: black;
+  color: white;
+  padding: 6vw;
+  min-height: 60vh;
+  .collection_ctn {
+    margin-left: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    position: relative;
+    .collct_left {
+      img {
+        position: absolute;
+        top: -100%;
+        left: -75%;
+      }
+    }
+    .collct_right {
+      /* background-color: beige; */
+      h2 {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+      }
+      .p_ctn {
+        display: flex;
+        gap: 2vw;
+        line-height: 1.8;
+        p {
+          font-size: 1vw;
+        }
+      }
+    }
+  }
+}
+
+.team_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  height: auto;
+  padding: 5vw;
+  .team_top {
+    text-align: center;
+    p {
+      color: rgb(154, 153, 153);
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 2vw;
+      margin: 1vw;
+    }
+  }
+  .team_mem {
+    /* margin-top: 2vw; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    h2 {
+      margin-top: 1vw;
+    }
+    p {
+      color: #e8363c;
+      font-weight: bold;
+      margin: 1vw;
+    }
+  }
+}
+
+.testimonial_sec {
+  padding: 5vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .testml {
+    margin-left: -150px;
+    background-color: black;
+    color: white;
+    padding: 7vw 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    p {
+      line-height: 2;
+    }
+    .tst_img_name {
+      display: flex;
+      align-items: center;
+      gap: 1.5vw;
+      img {
+        width: 3vw;
+      }
+
+      h3 {
+        color: #e8363c;
+      }
+    }
+  }
+}
+
+.trend_sec {
+  background-color: #f8f6f5;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  height: auto;
+  .trend_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    h2 {
+      font-size: 3vw;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 1vw;
+    }
+    .trend_btn {
+      button {
+        background-color: #e8363c;
+        color: white;
+        border: none;
+        padding: 20px;
+        font-size: 1vw;
+      }
+    }
+  }
+  .trend_right {
+    img {
+      width: 50vw;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .shoe_collection_sec {
+    margin-top: 250px;
+    .collection_ctn {
+      position: relative;
+      flex-direction: column !important;
+      align-items: center;
+      margin-left: 0;
+      .collct_left {
+        position: relative !important;
+        bottom: 250px;
+        right: 250px;
+      }
+
+      .collct_right {
+        margin-top: 250px;
+        position: relative !important;
+      }
+    }
+  }
+  .team_sec {
+    .team_mem {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .testimonial_sec {
+    flex-direction: column;
+    .testml_img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .testml {
+      position: relative;
+      margin: 0;
+    }
+  }
+  .trend_sec {
+    flex-direction: column;
+    align-items: center !important;
+    .trend_left {
+      text-align: center;
+      p {
+        font-size: 2vw;
+      }
+      .trend_btn {
+        button {
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shoe_collection_sec {
+    /* height: 90vh; */
+    margin-top: 100px;
+    .collection_ctn {
+      position: relative;
+      /* flex-direction: column !important;
+      align-items: center;
+      margin-left: 0; */
+      .collct_left {
+        position: relative !important;
+        bottom: 100px;
+        right: 150px;
+        img {
+          width: 300px;
+        }
+      }
+
+      .collct_right {
+        margin-top: 200px;
+        position: relative !important;
+      }
+    }
+  }
+
+  .team_sec {
+    .team_mem {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

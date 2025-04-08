@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Black T-shirt",
+    "category": "T-shirts",
+    "price": 25.99,
+    "org_price": 80.0,
+    "rating": 4.5,
+    "description": "A smooth and fast wireless mouse with long battery life.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-7_optimized.webp",
+    "sale_tag": true
+  },
+  {
+    "id": 2,
+    "name": "Brown Cap",
+    "category": "Accessories",
+    "price": 25.0,
+    "org_price": null,
+    "rating": null,
+    "description": "RGB backlit mechanical keyboard with customizable keys.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-2_optimized-600x697.webp",
+    "sale_tag": false
+  },
+  {
+    "id": 3,
+    "name": "Color Sneakers",
+    "category": "Sneakers",
+    "price": 50.0,
+    "org_price": 80.0,
+    "rating": 4.7,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-8_optimized.webp",
+    "sale_tag": true
+  },
+  {
+    "id": 4,
+    "name": "Elegant Bag",
+    "category": "Accessories",
+    "price": 50.0,
+    "org_price": null,
+    "rating": null,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-1_optimized-600x697.webp",
+    "sale_tag": false
+  },
+  {
+    "id": 5,
+    "name": "Gray Shoes",
+    "category": "Sneakers",
+    "price": 50.0,
+    "org_price": 80.0,
+    "rating": 3,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-6_optimized.webp",
+    "sale_tag": false
+  },
+  {
+    "id": 6,
+    "name": "Quartz Watch",
+    "category": "Accessories",
+    "price": 50.0,
+    "org_price": 80.0,
+    "rating": 5,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-3_optimized.webp",
+    "sale_tag": true
+  },
+  {
+    "id": 7,
+    "name": "Retro Sunglasses",
+    "category": "Accessories",
+    "price": 55.0,
+    "org_price": 60.0,
+    "rating": null,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-9_optimized.webp",
+    "sale_tag": true
+  },
+  {
+    "id": 8,
+    "name": "Snapback Cap",
+    "category": "Accessories",
+    "price": 30.0,
+    "org_price": 45.0,
+    "rating": 4.7,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-10_optimized.webp",
+    "sale_tag": true
+  },
+  {
+    "id": 9,
+    "name": "Stonewall Sneakers",
+    "category": "Sneakers",
+    "price": 60.0,
+    "org_price": 70.0,
+    "rating": null,
+    "description": "Latest Android smartphone with high-end features.",
+    "image": "https://startersites.io/blocksy/garderobe/wp-content/uploads/2021/12/shop-item-4_optimized-600x697.webp",
+    "sale_tag": false
+  }
+]

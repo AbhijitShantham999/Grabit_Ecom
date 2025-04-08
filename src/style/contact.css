@@ -1,0 +1,125 @@
+.contact {
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f1f1f1;
+  h4 {
+    font-weight: 400;
+  }
+  span {
+    color: grey;
+  }
+  h1 {
+    font-size: 3.5vw;
+  }
+}
+
+.contact_form {
+  /* background-color: aquamarine; */
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+  width: 100%;
+  padding: 5vw;
+  .form_left {
+    padding: 20px;
+    width: 40%;
+    background-color: #e8363c;
+    img {
+      margin-top: -70px;
+      margin-bottom: -25px;
+      /* margin-left: 25% ; */
+      width: 100%;
+    }
+  }
+  .form_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 60%;
+    h2 {
+      font-size: 4vw;
+    }
+    .form_input {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2vw;
+      .input_field {
+        width: 100%;
+        h4 {
+          margin-bottom: 5px;
+          span {
+            font-size: 10px;
+            color: #d81c22;
+          }
+        }
+        input {
+          width: 100%;
+          height: 3vw;
+          padding: 0 1vw;
+          border: 1px #eff1f4 solid;
+        }
+        .error_span {
+          color: #d81c22;
+          font-size: 15px;
+          opacity: 1;
+        }
+        textarea {
+          width: 100%;
+          height: 10vw;
+          padding: 1vw;
+          border: 1px #eff1f4 solid;
+        }
+        input:hover,
+        textarea:hover {
+          border: 1px #d81c22 solid;
+        }
+      }
+      .form_btn {
+        button {
+          padding: 15px 20px;
+          color: white;
+          background-color: #e8363c;
+          border: none;
+          font-size: 15px;
+        }
+        button:hover {
+          background-color: #d81c22;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact_form {
+    margin-top: 40px;
+    flex-direction: column;
+    .form_left {
+      width: 100%;
+    }
+    .form_right {
+      margin-top: 20px;
+      width: 100%;
+      h2 {
+        font-size: 6vw;
+      }
+      .form_input {
+        .input_field {
+          input {
+            height: 40px;
+          }
+          textarea {
+            height: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
